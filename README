@@ -1,0 +1,12 @@
+# INSTALL #
+Just copy the plugin folder into your ~/.drush folder.
+
+# USAGE #
+drush janitor-remove will give you 
+* a list of modules that must be uninstalled
+* a list of modules that can safely be removed
+* the list of paths (relative to the basepath) of those modules that can be removed
+
+# ALIASES #
+drush jr
+drush janitor
